@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "input in input box",
+        "description": "",
+        "id": "use-search-bar-on-google-home-page;input-in-input-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188167170,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the google home page",
+            "match": {
+              "location": "GoogleSteps.aUserIsOnTheGoogleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040522449,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user searches for \"comrade doggo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comrade doggo",
+                  "offset": 21
+                }
+              ],
+              "location": "GoogleSteps.aUserSearchesFor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44558456,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user should see pictures of dogs",
+            "match": {
+              "location": "GoogleSteps.aUserShouldSeePicturesOfDogs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Use search bar on google home page",
+    "description": "",
+    "id": "use-search-bar-on-google-home-page",
+    "keyword": "Feature",
+    "uri": "src/test/feature/GoogleSearch.feature",
+    "tags": []
+  }
+]
